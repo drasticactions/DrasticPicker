@@ -9,7 +9,7 @@ public class DrasticPickerSampleViewController : UIViewController
     public DrasticPickerSampleViewController()
     {
         this.picker = new PickerViewWrapper("Sample Picker", 
-            new[] { "Options 1", "Options 2" }, "Options 2", CustomPickerStyle.Segmented,
+            new[] { "Options 1", "Options 2" }, "Options 2", CustomPickerStyle.Menu,
             s =>
             {
                 

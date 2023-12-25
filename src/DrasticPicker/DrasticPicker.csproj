@@ -1,12 +1,12 @@
 <Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
-    <TargetFrameworks>net8.0-ios;net8.0-maccatalyst</TargetFrameworks>
+    <TargetFrameworks>net8.0-ios;net8.0-maccatalyst;net8.0-tvos</TargetFrameworks>
     <Nullable>enable</Nullable>
     <ImplicitUsings>true</ImplicitUsings>
     <IsBindingProject>true</IsBindingProject>
     <IsPackable>true</IsPackable>
-    <Description>Wrapping of SwiftUI Picker for iOS and Mac Catalyst.</Description>
-    <Version>1.0.1</Version>
+    <Description>Wrapping of SwiftUI Picker for iOS, tvOS, and Mac Catalyst.</Description>
+    <Version>1.0.2</Version>
     <Company>Drastic Actions</Company>
     <Authors>$(Company)</Authors>
     <Copyright>Copyright (C) Drastic Actions</Copyright>
@@ -17,7 +17,7 @@
     <PublishRepositoryUrl>true</PublishRepositoryUrl>
     <EmbedUntrackedSources>true</EmbedUntrackedSources>
     <DebugType>embedded</DebugType>
-    <PackageTags>catalyst ios uipickerview picker swiftui</PackageTags>
+    <PackageTags>catalyst ios tvos uipickerview picker swiftui</PackageTags>
     <PackageProjectUrl>https://github.com/drasticactions/DrasticPicker</PackageProjectUrl>
   </PropertyGroup>
   

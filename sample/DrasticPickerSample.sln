@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DrasticPickerSample.Catalys
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DrasticPickerSample", "DrasticPickerSample\DrasticPickerSample.csproj", "{E746E218-DF3E-4771-8B9C-775462A4D8F5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DrasticPickerSample.tvOS", "DrasticPickerSample.tvOS\DrasticPickerSample.tvOS.csproj", "{DE3B3C2F-8E4F-404C-8751-1928C6F20E6F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -30,5 +32,9 @@ Global
 		{E746E218-DF3E-4771-8B9C-775462A4D8F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E746E218-DF3E-4771-8B9C-775462A4D8F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E746E218-DF3E-4771-8B9C-775462A4D8F5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DE3B3C2F-8E4F-404C-8751-1928C6F20E6F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DE3B3C2F-8E4F-404C-8751-1928C6F20E6F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DE3B3C2F-8E4F-404C-8751-1928C6F20E6F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DE3B3C2F-8E4F-404C-8751-1928C6F20E6F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

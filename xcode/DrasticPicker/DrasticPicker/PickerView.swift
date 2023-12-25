@@ -21,7 +21,13 @@ import SwiftUI
         case .segmented:
             picker.pickerStyle(SegmentedPickerStyle())
         case .wheel:
+            #if targetEnvironment(macCatalyst)
             picker.pickerStyle(WheelPickerStyle())
+            #elseif os(iOS)
+            picker.pickerStyle(WheelPickerStyle())
+            #else
+            picker.pickerStyle(DefaultPickerStyle())
+            #endif
         case .menu:
             picker.pickerStyle(MenuPickerStyle())
         }
@@ -57,5 +63,5 @@ struct PickerWrapperView: View {
 }
 
 #Preview {
-    PickerWrapperView(title: "Select an option", options: ["Option 13", "Option 2", "Option 3"], pickerStyle: .defaultStyle)
+    PickerWrapperView(title: "Select an option", options: ["Option 13", "Option 2", "Option 3"], pickerStyle: .segmented)
 }
